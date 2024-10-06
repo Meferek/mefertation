@@ -1,8 +1,9 @@
 import LinkComponent from "@/components/others/LinkComponent";
 import { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
     title: "Mefertation",
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
 export default function Page() {
     return (
         <>
-            <div className={`flex w-full h-screen ${ inter.className } antialiased`}>
+            <div className={`flex w-full h-screen ${ montserrat.className } antialiased`}>
                 <div className="flex flex-col p-4 md:p-8">
                     <div className="mb-8">
                         <h1 className="text-3xl md:text-4xl xl:text-5xl font-extrabold mb-2">Mefertation (WWSI)</h1>
