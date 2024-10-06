@@ -15,10 +15,11 @@
     display: none; /* Safari i Chrome */
 }
 
-* {
-    font-family: var(--font-montserrat);
+:root {
+    --r-heading-font: var(--font-montserrat) !important;
+    --r-main-font: var(--font-montserrat) !important;
 }
 
-code {
+code > * {
     font-family: var(--font-jetbrains_mono) !important;
 }
