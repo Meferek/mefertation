@@ -209,7 +209,7 @@ const RevealPresentationClient = () => {
                     </section>
                     <section data-auto-animate>
                         <h3>Instalacja</h3>
-                        <pre><code data-trim data-line-numbers="1|2">
+                        <pre><code className="font-mono" data-trim data-line-numbers="1|2">
                             {`
                             pip install matplotlib
                             import matplotlib.pyplot as plt
@@ -229,7 +229,7 @@ const RevealPresentationClient = () => {
                     </section>
                     <section data-auto-animate>  
                         <h3>Podstawowa implementacja</h3>
-                        <pre><code data-trim data-line-numbers="1|3-4|6|7|1-7">
+                        <pre><code className="font-mono" data-trim data-line-numbers="1|3-4|6|7|1-7">
                             {`
                             import matplotlib.pyplot as plt
 
@@ -269,7 +269,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>sizes</kbd></p>
-                        <pre><code data-trim data-line-numbers="4,9">
+                        <pre><code className="font-mono" data-trim data-line-numbers="4,9">
                             {`
                             import matplotlib.pyplot as plt
 
@@ -304,7 +304,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>labels</kbd></p>
-                        <pre><code data-trim data-line-numbers='3,9'>
+                        <pre><code className="font-mono" data-trim data-line-numbers='3,9'>
                             {`
                             import matplotlib.pyplot as plt
 
@@ -339,7 +339,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>colors</kbd></p>
-                        <pre><code data-trim data-line-numbers='5,11'>
+                        <pre><code className="font-mono" data-trim data-line-numbers='5,11'>
                             {`
                             import matplotlib.pyplot as plt
 
@@ -376,7 +376,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>autopct</kbd></p>
-                        <pre><code data-trim data-line-numbers='10'>
+                        <pre><code className="font-mono" data-trim data-line-numbers='10'>
                             {`
                             import matplotlib.pyplot as plt
 
@@ -412,7 +412,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>explode</kbd></p>
-                        <pre><code data-trim data-line-numbers='5,10'>
+                        <pre><code className="font-mono" data-trim data-line-numbers='5,10'>
                             {`
                             import matplotlib.pyplot as plt
 
@@ -448,7 +448,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>startangle</kbd></p>
-                        <pre><code data-trim data-line-numbers='9'>
+                        <pre><code className="font-mono" data-trim data-line-numbers='9'>
                             {`
                             import matplotlib.pyplot as plt
 
@@ -483,7 +483,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>shadow</kbd></p>
-                        <pre><code data-trim data-line-numbers='9'>
+                        <pre><code className="font-mono" data-trim data-line-numbers='9'>
                             {`
                             import matplotlib.pyplot as plt
 
@@ -518,7 +518,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>radius</kbd></p>
-                        <pre><code data-trim data-line-numbers='9'>
+                        <pre><code className="font-mono" data-trim data-line-numbers='9'>
                             {`
                             import matplotlib.pyplot as plt
 
@@ -553,7 +553,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>textprops</kbd></p>
-                        <pre><code data-trim data-line-numbers='9'>
+                        <pre><code className="font-mono" data-trim data-line-numbers='9'>
                             {`
                             import matplotlib.pyplot as plt
 
@@ -588,7 +588,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>counterclock</kbd></p>
-                        <pre><code data-trim data-line-numbers='9'>
+                        <pre><code className="font-mono" data-trim data-line-numbers='9'>
                             {`
                             import matplotlib.pyplot as plt
 
@@ -623,7 +623,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>wedgeprops</kbd></p>
-                        <pre><code data-trim data-line-numbers>
+                        <pre><code className="font-mono" data-trim data-line-numbers>
                             {`
                             import matplotlib.pyplot as plt
 
@@ -658,7 +658,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>pctdistance</kbd></p>
-                        <pre><code data-trim data-line-numbers='9'>
+                        <pre><code className="font-mono" data-trim data-line-numbers='9'>
                             {`
                             import matplotlib.pyplot as plt
 
@@ -693,7 +693,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>labeldistance</kbd></p>
-                        <pre><code data-trim data-line-numbers='9'>
+                        <pre><code className="font-mono" data-trim data-line-numbers='9'>
                             {`
                             import matplotlib.pyplot as plt
 
@@ -728,7 +728,7 @@ const RevealPresentationClient = () => {
                     <section data-auto-animate>  
                         <h3>Parametry</h3>
                         <p><kbd>rotatelabels</kbd></p>
-                        <pre><code data-trim data-line-numbers>
+                        <pre><code className="font-mono" data-trim data-line-numbers>
                             {`
                             import matplotlib.pyplot as plt
 
@@ -826,7 +826,7 @@ const RevealPresentationClient = () => {
                     <h2>Fajnie, znów</h2>
                 </section>
                 <section data-auto-animate>
-                <pre data-id="code-animation"><code data-trim data-line-numbers>
+                <pre data-id="code-animation"><code className="font-mono" data-trim data-line-numbers>
                 {` 
                 let planets = [
                     { name: 'mars', diameter: 6779 },
@@ -835,7 +835,7 @@ const RevealPresentationClient = () => {
                 </code></pre>
                 </section>
                 <section data-auto-animate>
-                <pre data-id="code-animation"><code data-trim data-line-numbers>
+                <pre data-id="code-animation"><code className="font-mono" data-trim data-line-numbers>
                 {`
                 let planets = [
                     { name: 'mars', diameter: 6779 },
@@ -846,7 +846,7 @@ const RevealPresentationClient = () => {
                 </code></pre>
                 </section>
                 <section data-auto-animate>
-                <pre data-id="code-animation"><code data-trim data-line-numbers>
+                <pre data-id="code-animation"><code className="font-mono" data-trim data-line-numbers>
                 {` 
                 let circumferenceReducer = ( c, planet ) => {
                     return c + planet.diameter * Math.PI;
@@ -865,7 +865,7 @@ const RevealPresentationClient = () => {
                 <section data-auto-animate>
                     <h2>Slide 2</h2>
                     <p>Some content for the second slide.</p>
-                    <pre><code data-trim data-noescape data-line-numbers="1|2|3-6|8|9-10">
+                    <pre><code className="font-mono" data-trim data-noescape data-line-numbers="1|2|3-6|8|9-10">
                     {`
                     # Funkcja obliczająca sumę liczb od 1 do 10
                     def suma_liczb():
