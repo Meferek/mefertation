@@ -756,7 +756,7 @@ const RevealPresentationClient = () => {
                     </section>
                 </section>
                 
-                <section data-background-iframe="http://localhost:8888/notebooks" data-background-color="white" data-background-interactive>
+                <section data-background-iframe="http://localhost:8888/tree" data-background-color="white" data-background-interactive>
                 </section>
 
                 <section data-auto-animate>
