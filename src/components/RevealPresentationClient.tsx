@@ -282,7 +282,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels)
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Określa proporcje każdej sekcji wykresu, wpływając na wielkość poszczególnych segmentów.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -317,7 +317,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels)
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Ustawia nazwy kategorii, które zostaną wyświetlone na wykresie kołowym.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -354,7 +354,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels, colors=colors)
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Definiuje kolory dla segmentów wykresu, umożliwiając personalizację wyglądu.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -390,7 +390,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels, autopct='%.1f%%')
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Dodaje wartości procentowe wewnątrz segmentów, pomagając w zrozumieniu proporcji.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -426,7 +426,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels, explode=explode)
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Wyciąga określony segment na zewnątrz, aby go wyróżnić.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -461,7 +461,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels, startangle=120)
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Ustawia początkowy kąt, od którego rysowany jest wykres, obracając całą grafikę.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -496,7 +496,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels, shadow=True)
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Dodaje cień do wykresu, nadając mu efekt 3D.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -531,7 +531,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels, radius=0.2)
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Określa promień wykresu, kontrolując jego wielkość.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -566,7 +566,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels, textprops={'color': 'red','fontsize': '20'})
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Pozwala na dostosowanie stylu tekstu etykiet, np. kolor czy rozmiar czcionki.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -601,7 +601,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels, counterclock=False)
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Decyduje, czy segmenty będą rysowane w kierunku przeciwnym do ruchu wskazówek zegara.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -636,7 +636,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels, wedgeprops={'edgecolor': 'black', 'linewidth': 2, 'linestyle': 'dashed'})
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Umożliwia dostosowanie wyglądu segmentów, np. koloru krawędzi i grubości linii.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -671,7 +671,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels, autopct='%.1f%%', pctdistance=0.85)
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Określa odległość wartości procentowej od środka wykresu.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -706,7 +706,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels, labeldistance=0.5)
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Ustawia odległość etykiet od środka wykresu.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -741,7 +741,7 @@ const RevealPresentationClient = () => {
                             ax.pie(sizes, labels=labels, rotatelabels=True)
                             `}
                         </code></pre>
-                        <h6 className="text-sm">KRÓTKI TEKST OBJAŚNIAJĄCY</h6>
+                        <h6 className="text-sm">Obraca etykiety wzdłuż segmentów, zapewniając lepszą czytelność.</h6>
                     </section>
                     <section data-auto-animate data-background-color="white">
                         <h3>Parametry</h3>
@@ -756,7 +756,8 @@ const RevealPresentationClient = () => {
                     </section>
                 </section>
                 
-                <section data-background-iframe="http://localhost:8888/tree" data-background-color="white" data-background-interactive>
+                <section data-background-color="orange" data-background-interactive>
+                        <h1 className="r-fit-text">Czas na wspólne kodowanie</h1>
                 </section>
 
                 <section data-auto-animate>
