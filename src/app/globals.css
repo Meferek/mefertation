@@ -1,9 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import "reveal.js/dist/reveal.css";
 @import "reveal.js/dist/theme/night.css";
-@import "highlight.js/styles/atom-one-dark.css"; /* Replace 'github' with your preferred theme */
-/* @import "reveal.js/dist/theme/black.css"; */
+@import "highlight.js/styles/atom-one-dark.css";
 
-/* Ukryj scrollbar na całej stronie */
 * {
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* Internet Explorer 10+ */
