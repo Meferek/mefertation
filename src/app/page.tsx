@@ -15,7 +15,7 @@ export default function Page() {
                         <p className="text-sm xl:text-lg">Prezentacje grupy: Mateusz Krysiak, Jakub Grabowski, Radosław Mróz.</p>
                     </div>
                     <div className="flex flex-col gap-4 w-full">
-                        <LinkComponent link="/presentations/1" number={1} title="Pie Chart | Matplotlib" linkToFiles="/2" />
+                        <LinkComponent link="/presentations/1" number={1} title="Pie Chart | Matplotlib" linkToFiles="/1/files/pie_chart.zip" />
                     </div>
                 </div>
             </div>
