@@ -16,6 +16,7 @@ export default function Page() {
                     </div>
                     <div className="flex flex-col gap-4 w-full">
                         <LinkComponent link="/presentations/1" number={1} title="Pie Chart | Matplotlib" linkToFiles="/1/files/pie_chart.zip" />
+                        <LinkComponent link="/presentations/2" number={2} title="Pandas | Referat" linkToFiles="/2/files/pandas.zip" />
                     </div>
                 </div>
             </div>
