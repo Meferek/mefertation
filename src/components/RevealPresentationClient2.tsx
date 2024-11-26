@@ -262,7 +262,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/5.png"
                                 width="900"
@@ -284,7 +284,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                         <Image
                                 src="/2/screens/6.png"
                                 width="900"
@@ -304,7 +304,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/8.png"
                                 width="600"
@@ -328,7 +328,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/9.png"
                                 width="1100"
@@ -349,7 +349,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/10.png"
                                 width="1100"
@@ -371,7 +371,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/11.png"
                                 width="900"
@@ -401,7 +401,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/12.png"
                                 width="600"
@@ -422,7 +422,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/13.png"
                                 width="600"
@@ -443,7 +443,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/14.png"
                                 width="900"
@@ -465,7 +465,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/15.png"
                                 width="900"
@@ -486,7 +486,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/16.png"
                                 width="900"
@@ -528,7 +528,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/17.png"
                                 width="900"
@@ -548,7 +548,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/18.png"
                                 width="900"
@@ -577,7 +577,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/19.png"
                                 width="900"
@@ -602,7 +602,7 @@ const RevealPresentationClient2 = () => {
                                 `}
                         </code></pre>
                     </section>
-                    <section>
+                    <section data-auto-animate>
                     <Image
                                 src="/2/screens/20.png"
                                 width="900"
