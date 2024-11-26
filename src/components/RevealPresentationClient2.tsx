@@ -317,7 +317,7 @@ const RevealPresentationClient2 = () => {
 
                 <section data-auto-animate>
                     <section data-auto-animate>
-                        <h3>Skopiowanie DataFrame'a i dodanie nowych kolumn</h3>
+                        <h3>Skopiowanie DataFrame&apos;a i dodanie nowych kolumn</h3>
                         <pre><code className="font-mono" data-trim data-line-numbers="1">
                                 {`
                                 df1 = df.copy()
@@ -331,8 +331,8 @@ const RevealPresentationClient2 = () => {
                     <section>
                     <Image
                                 src="/2/screens/9.png"
-                                width="900"
-                                height="900"
+                                width="1100"
+                                height="1100"
                                 alt="Pandas1"
                                 className='r-fit-text'
                                     />
@@ -352,8 +352,8 @@ const RevealPresentationClient2 = () => {
                     <section>
                     <Image
                                 src="/2/screens/10.png"
-                                width="900"
-                                height="900"
+                                width="1100"
+                                height="1100"
                                 alt="Pandas1"
                                 className='r-fit-text'
                                     />
@@ -383,7 +383,7 @@ const RevealPresentationClient2 = () => {
                 </section>
 
                 <section data-auto-animate>
-                        <h3>Usuwanie DataFrame'a</h3>
+                        <h3>Usuwanie DataFrame&apos;a</h3>
                         <pre><code className="font-mono" data-trim data-line-numbers="1">
                                 {`
                                 del df1 
@@ -508,9 +508,10 @@ const RevealPresentationClient2 = () => {
 
                 <section data-auto-animate>
                         <h3>Tworzenie małych kategorii na podstawie wartości w kolumnie</h3>
-                        <pre><code className="font-mono" data-trim data-line-numbers="1">
+                        <pre><code className="font-mono" data-trim>
                                 {`
-                                df['DcM'] = df['OBS_VALUE'].apply(lambda x: 'dużo' if x > 8000 else 'mało')
+                                df['DcM'] = df['OBS_VALUE'].apply(lambda x: 'dużo' 
+                                if x > 8000 else 'mało')
                                 `}
                         </code></pre>
                 </section>
@@ -518,8 +519,8 @@ const RevealPresentationClient2 = () => {
                 
                 <section data-auto-animate>
                     <section data-auto-animate>
-                        <h3>Wykresy z Pandas</h3>
-                        <pre><code className="font-mono" data-trim data-line-numbers="1">
+                        <h3>Sprawdzanie rankingu w kolumnie</h3>
+                        <pre><code className="font-mono" data-trim>
                                 {`
                                 df['RANK'] = df.groupby(df['TIME_PERIOD'])['OBS_VALUE x2'].rank(ascending=False)
                                 filtered_df = df[df['geo'] == 'Poland'][['RANK', 'TIME_PERIOD', 'geo', 'OBS_VALUE x2']]
@@ -589,7 +590,7 @@ const RevealPresentationClient2 = () => {
 
                 <section data-auto-animate>
                     <section data-auto-animate>
-                        <h3>Meltowanie danych, zachowując kolumny 'geo' i 'TIME_PERIOD'</h3>
+                        <h3>Meltowanie danych, zachowując kolumny geo i TIME_PERIOD</h3>
                         <pre><code className="font-mono" data-trim>
                                 {`
                                 df_melted = df.melt(id_vars=['geo', 'TIME_PERIOD'], 
